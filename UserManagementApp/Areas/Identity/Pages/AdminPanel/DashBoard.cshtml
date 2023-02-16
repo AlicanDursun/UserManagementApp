@@ -1,0 +1,42 @@
+﻿@page
+@model DashBoardModel
+@{
+    ViewData["Title"] = "DashBoard";
+}
+<div class="d-flex aligns-items-center justify-content-center card border-0 text-center w-50 position-absolute top-50 start-50 translate-middle rounded">
+
+    <div class="align-self-center mt-3">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Online Users</div>
+            <div class="card-body">
+                <h5 id="usersOnline" class="card-title">Primary card title</h5>
+                <div id="usersOnline"></div>
+            </div>
+        </div>
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">Today Registered User Count</div>
+            <div class="card-body">
+                <h5 class="card-title">@Model.Data.DailyRegisteredUsersCount</h5>
+
+            </div>
+        </div>
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+            <div class="card-header">Today Not Registered User Count</div>
+            <div class="card-body">
+                <h5 class="card-title">@Model.Data.DailyNotVerifiedUsersCount</h5>
+
+            </div>
+        </div>
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header">Today Registeration Average Seconds</div>
+            <div class="card-body">
+                <h5 class="card-title">@Model.Data.DailyAverageVerifiedSeconds</h5>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
