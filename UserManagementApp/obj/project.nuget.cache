@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "79sMmJgifC47JQQZS/INWddK5pwsKW9uRQMJvzO6EJhhgu5hb4Ozg1sFXvSV5bOD/dyU/WERuSolgsY7ypkyfQ==",
+  "dgSpecHash": "wtQswELWBKtJ9EYY9uDsI3UpN5NSHtqO0mTdh1HWppAYo/3teBcORG8U5PE3zkOOdQwOb4uSUa9jBDQqXr3WtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pleistarchos\\Desktop\\UserManagementApp\\UserManagementApp\\UserManagementApp.csproj",
+  "projectFilePath": "C:\\Users\\Pleistarchos\\Desktop\\github\\UserManagementApp\\UserManagementApp\\UserManagementApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pleistarchos\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Pleistarchos\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
